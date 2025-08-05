@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="cadastro.css" />
+</head>
+
+<body>
+  <form action="#" method="post">
+    <fieldset class="card">
+      <legend class="card__title">Cadastre-se</legend>
+
+      <label class="card__label" for="user">Usuário</label>
+      <input class="card__input" type="text" id="user" name="user" placeholder="Digite seu usuário" required />
+
+      <label class="card__label" for="email">Email</label>
+      <input class="card__input" type="email" id="email" name="email" placeholder="Digite seu email" required />
+
+      <label class="card__label" for="pass">Senha</label>
+      <input class="card__input" type="password" id="pass" name="pass" placeholder="Digite sua senha" required />
+
+      <div class="card__actions">
+        <input class="card__submit" type="submit" value="Cadastre-se" />
+        <p>Já possui cadastro? <a href="login.html">Faça login</a></p>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
